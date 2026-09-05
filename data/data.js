@@ -11,9 +11,9 @@ export const servicesData = [
     { id: 1, title: "The Future of Web Frameworks", desc: "Why Next.js continues to dominate modern frontend development in 2026.", image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" },
     { id: 2, title: "Building Scalable Cloud Apps", desc: "Best practices for architecting resilient backend and cloud systems.", image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80" },
     { id: 3, title: "Mastering UI Design Principles", desc: "How subtle design choices drastically improve user retention rates.", image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=600&q=80" },
-    { id: 4, title: "AI in Everyday Business", desc: "Practical automation tools transforming enterprise workflows today.", image: "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=600&q=80" },
+    { id: 4, title: "AI in Everyday Business", desc: "Practical automation tools transforming enterprise workflows today.", image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80" },
     { id: 5, title: "Optimizing Mobile Performance", desc: "Key strategies for reducing mobile app latency and memory footprint.", image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" },
-    { id: 6, title: "SEO Strategies for Modern Apps", desc: "How server-side rendering powers search engine ranking success.", image: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=600&q=80" },
+    { id: 6, title: "SEO Strategies for Modern Apps", desc: "How server-side rendering powers search engine ranking success.", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" },
   ];
   
   export const testimonialData = [
