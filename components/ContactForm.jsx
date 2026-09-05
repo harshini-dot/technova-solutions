@@ -62,7 +62,7 @@ export default function ContactForm() {
               name="name" 
               value={formData.name} 
               onChange={handleChange} 
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900" 
             />
             {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name}</p>}
           </div>
@@ -74,7 +74,7 @@ export default function ContactForm() {
               name="email" 
               value={formData.email} 
               onChange={handleChange} 
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900" 
             />
             {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
           </div>
@@ -86,7 +86,7 @@ export default function ContactForm() {
               name="phone" 
               value={formData.phone} 
               onChange={handleChange} 
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900" 
             />
             {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone}</p>}
           </div>
@@ -98,7 +98,7 @@ export default function ContactForm() {
               rows="4" 
               value={formData.message} 
               onChange={handleChange} 
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900"
             ></textarea>
             {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
           </div>
